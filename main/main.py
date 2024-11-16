@@ -3,10 +3,10 @@ import random
 import uuid
 import time
 import json
-from src.config import load_config
-from src.updater import auto_update_script
-from src.proxy_manager import load_proxies
-from src.wss_connection import connect_to_wss
+from config import load_config
+from updater import auto_update_script
+from proxy_manager import load_proxies
+from wss_connection import connect_to_wss
 from loguru import logger
 
 async def main():
